@@ -1,0 +1,50 @@
+.Card {
+  /* Add shadows to create the "card" effect */
+  background-color: white;
+  color: black;
+  font-size: small;
+  width: 100%;
+  height: 100%;
+  border: 1px solid grey;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  font-weight: bold;
+  margin: 5px 5px;
+  margin-bottom: 10px;
+  gap: 0% 0%;
+}
+
+.Group {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-left: 5px;
+  margin-right: 5px;
+
+  text-align: left;
+  gap: 0% 10%;
+}
+.Button-group {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-left: 5px;
+  margin-right: 5px;
+
+  text-align: left;
+  gap: 0% 3%;
+}
+.Highlight {
+  color: orange;
+  font-size: 15px;
+}
+.Highlight-blue {
+  color: rgb(17, 202, 248);
+  font-size: 15px;
+}
+.Dim {
+  color: grey;
+  font-size: 10px;
+  font-weight: normal;
+}

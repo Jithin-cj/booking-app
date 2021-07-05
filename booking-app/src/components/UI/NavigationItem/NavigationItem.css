@@ -1,0 +1,26 @@
+.NavigationItems {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  color: white;
+  background-color: rgb(17, 202, 248);
+  align-content: center;
+  text-align: center;
+}
+.NavigationItem {
+  margin: 10px;
+  padding: 10px;
+  align-items: center;
+  width: 100%;
+  color: white;
+  text-decoration: none;
+}
+.active {
+  text-decoration: underline;
+  text-decoration-color: white;
+}
